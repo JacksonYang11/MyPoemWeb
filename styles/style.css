@@ -1,0 +1,15 @@
+.poem {
+  font-family: "楷体", serif;
+  text-align: center;
+  line-height: 1.8;
+  margin: 20px auto;
+  padding: 15px;
+  border-left: 3px solid #d4a373; /* 左侧竖线装饰 */
+}
+.poem p {
+  margin: 0.5em 0;
+}
+
+body {
+  background-color: #f9f5f0; /* 米白背景 */
+}
