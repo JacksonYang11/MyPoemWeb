@@ -13,3 +13,41 @@
 body {
   background-color: #f9f5f0; /* 米白背景 */
 }
+
+/* 图片容器 */
+.artistic-image-container {
+  width: 80%;
+  max-width: 600px; /* 限制最大宽度 */
+  margin: 40px auto; /* 居中 */
+  text-align: center;
+  position: relative;
+}
+
+.artistic-image-container::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  border: 3px solid #d4b483; /* 浅金边框 */
+  border-radius: 15px; /* 轻微圆角 */
+  z-index: -1;
+  opacity: 0.6;
+}
+
+/* 图片样式 */
+.artistic-image {
+  width: 100%; /* 自适应容器宽度 */
+  height: auto; /* 保持比例 */
+  border-radius: 15px; /* 轻微圆角 */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* 柔和阴影 */
+  filter: sepia(0%) brightness(98%); /* 复古色调 */
+  transition: transform 0.3s ease; /* 悬停动画 */
+}
+
+/* 悬停效果 */
+.artistic-image:hover {
+  transform: scale(1.02); /* 轻微放大 */
+  filter: sepia(10%) brightness(100%);
+}
