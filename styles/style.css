@@ -1,17 +1,64 @@
-.poem {
-  font-family: "楷体", serif;
-  text-align: center;
-  line-height: 1.8;
-  margin: 20px auto;
-  padding: 15px;
-  border-left: 3px solid #d4a373; /* 左侧竖线装饰 */
+.masonry-container {
+  column-count: 1;
+  column-gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
-.poem p {
-  margin: 0.5em 0;
+
+@media (min-width: 768px) {
+  .masonry-container {
+    column-count: 2;
+  }
+}
+
+@media (min-width: 1024px) {
+  .masonry-container {
+    column-count: 3;
+  }
+}
+
+.card {
+  break-inside: avoid;
+  margin-bottom: 20px;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card-text {
+  font-family: "楷体", serif;
+  padding: 15px;
+  margin: 0;
+  line-height: 1.6;
+  color: #333;
 }
 
 body {
   background-color: #f9f5f0; /* 米白背景 */
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #5d4037;
+  font-family: "宋体", serif;
+  margin-bottom: 30px;
 }
 
 /* 图片容器 */
