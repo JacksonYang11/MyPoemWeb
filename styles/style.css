@@ -70,7 +70,7 @@
 
 /* 确保文字宽度与图片一致 */
 .modal-text{
-  width: 100%;
+  width: 70%;
   margin: 0 auto;
   padding: 20px 30px 0;
   font-family: "楷体", serif;
