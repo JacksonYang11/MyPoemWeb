@@ -2,7 +2,7 @@
   column-count: 1;
   column-gap: 20px;
   padding: 20px;
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -15,6 +15,12 @@
 @media (min-width: 1024px) {
   .masonry-container {
     column-count: 3;
+  }
+}
+
+@media(min-width: 1500px){
+  .masonry-container{
+    column-count: 4;
   }
 }
 
