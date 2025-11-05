@@ -2,166 +2,199 @@
     {
         "id": 1,
         "sentences": "从他启动飞机的那一刻起，自由就成为了他生命的终章，即使死亡也不过是它的注脚。",
-        "imageUrl": "res/images/01.jpg"
+        "imageUrl": "res/images/jpg/01.jpg",
+        "imageUrlWebP": "res/images/webp/01.webp"
     },
     {
         "id": 2,
         "sentences": "他乡纵有当头月，不抵家乡一盏灯",
-        "imageUrl": "res/images/02.jpg"
+        "imageUrl": "res/images/jpg/02.jpg",
+        "imageUrlWebP": "res/images/webp/02.webp"
     },
     {
         "id": 3,
         "sentences": "西郊有密林，助君出重围",
-        "imageUrl": "res/images/03.jpg"
+        "imageUrl": "res/images/jpg/03.jpg",
+        "imageUrlWebP": "res/images/webp/03.webp"
     },
     {
         "id": 4,
         "sentences": "汴河阻冻\n[唐] 杜牧\n千里长河初冻时，玉珂瑶佩响参差。\n浮生却似冰底水，日夜东流人不知。",
-        "imageUrl": "res/images/04.jpg"
+        "imageUrl": "res/images/jpg/04.jpg",
+        "imageUrlWebP": "res/images/webp/04.webp"
     },
     {
         "id": 5,
         "sentences": "心神迷离望去\n从哪来，回哪去，落叶归根\n太阳，月亮，地球，\n我的国，我的省，我的市，我的县，我的镇，我的乡，我的村，我的队，我的组，我的家，我的双亲菩萨，我那排山倒海的列祖列宗，我的故土血地",
-        "imageUrl": "res/images/05.jpg"
+        "imageUrl": "res/images/jpg/05.jpg",
+        "imageUrlWebP": "res/images/webp/05.webp"       
     },
     {
         "id": 6,
         "sentences": "气温骤降的时候很容易对一些甜腻暖和的事物上瘾 比如刚出锅的糖炒板栗和烫手的热奶茶 燃烧的落叶和跳跃的炭火 还有刚熄灭烟草后的指尖和那些密不透风的拥抱",
-        "imageUrl": "res/images/06.jpg"
+        "imageUrl": "res/images/jpg/06.jpg",
+        "imageUrlWebP": "res/images/webp/06.webp"        
     },
     {
         "id": 7,
         "sentences": "我们是信息时代的游牧民，是一株长着肉的风滚草，伴随着时代摇摆，为了寻求机遇随波逐流",
-        "imageUrl": "res/images/07.jpg"
+        "imageUrl": "res/images/jpg/07.jpg",
+        "imageUrlWebP": "res/images/webp/07.webp"        
     },
     {
         "id": 8,
         "sentences": "她颜值身材可能不如各路网红，但是在这个滤镜和环境里，她是无敌的，因为她不只是她自己",
-        "imageUrl": "res/images/08.jpg"
+        "imageUrl": "res/images/jpg/08.jpg",
+        "imageUrlWebP": "res/images/webp/08.webp"        
     },
     {
         "id": 9,
         "sentences": "其实这张字条\n没有后来了\n足以改变彼此余生的人未必要用一生才能做到这件事\n她藏进五湖四海，唯独不在眼前",
-        "imageUrl": "res/images/09.jpg"
+        "imageUrl": "res/images/jpg/09.jpg",
+        "imageUrlWebP": "res/images/webp/09.webp"        
     },
     {
         "id": 10,
         "sentences": "爱本就是天时地利人和的结果",
-        "imageUrl": "res/images/10.jpg"
+        "imageUrl": "res/images/jpg/10.jpg",
+        "imageUrlWebP": "res/images/webp/10.webp"       
     },
     {
         "id": 11,
         "sentences": "我哪记得何年月，一道风来却熟悉",
-        "imageUrl": "res/images/11.jpg"
+        "imageUrl": "res/images/jpg/11.jpg",
+        "imageUrlWebP": "res/images/webp/11.webp"
     },
     {
         "id": 12,
         "sentences": "思考就是我的抵抗",
-        "imageUrl": "res/images/12.jpg"
+        "imageUrl": "res/images/jpg/12.jpg",
+        "imageUrlWebP": "res/images/webp/12.webp"
     },
     {
         "id": 13,
         "sentences": "我永恒的灵魂，注视着你的心",
-        "imageUrl": "res/images/13.jpg"
+        "imageUrl": "res/images/jpg/13.jpg",
+        "imageUrlWebP": "res/images/webp/13.webp"
     },
     {
         "id": 14,
         "sentences": "是俗是雅，我已分不清，我只知道月色正好，我若不去一趟，倒显得我不解风情",
-        "imageUrl": "res/images/14.jpg"
+        "imageUrl": "res/images/jpg/14.jpg",
+        "imageUrlWebP": "res/images/webp/14.webp"
     },
     {
         "id": 15,
         "sentences": "风定花犹落",
-        "imageUrl": "res/images/01.jpg"
+        "imageUrl": "res/images/jpg/01.jpg",
+        "imageUrlWebP": "res/images/webp/01.webp"
     },
     {
         "id": 16,
         "sentences": "去认知和了解\n用我的诡计\n和脆弱的心灵",
-        "imageUrl": "res/images/02.jpg"
+        "imageUrl": "res/images/jpg/02.jpg",
+        "imageUrlWebP": "res/images/webp/02.webp"
     },
     {
         "id": 17,
         "sentences": "一股清风\n穿过空旷的原野\n向我吹拂\n我想起了你\n轻唤你的名字\n我不是我了\n我很幸福\n————佩索阿",
-        "imageUrl": "res/images/03.jpg"
+        "imageUrl": "res/images/jpg/03.jpg",
+        "imageUrlWebP": "res/images/webp/03.webp"
     },
     {
         "id": 18,
         "sentences": "爱情只是飙车时钻进我夹克里的风",
-        "imageUrl": "res/images/04.jpg"
+        "imageUrl": "res/images/jpg/04.jpg",
+        "imageUrlWebP": "res/images/webp/04.webp"
     },
     {
         "id": 19,
         "sentences": "入山中云雾不知岁月",
-        "imageUrl": "res/images/05.jpg"
+        "imageUrl": "res/images/jpg/05.jpg",
+        "imageUrlWebP": "res/images/webp/05.webp"
     },
     {
         "id": 20,
         "sentences": "翘盼夜莺鸣\n时时倾耳听\n憧憧浓雾涌\n明月已西行",
-        "imageUrl": "res/images/06.jpg"
+        "imageUrl": "res/images/jpg/06.jpg",
+        "imageUrlWebP": "res/images/webp/06.webp"
     },
     {
         "id": 21,
         "sentences": "有人喝了酒，眼睛亮闪闪地和你讲浪漫和爱",
-        "imageUrl": "res/images/07.jpg"
+        "imageUrl": "res/images/jpg/07.jpg",
+        "imageUrlWebP": "res/images/webp/07.webp"
     },
     {
         "id": 22,
         "sentences": "不死的诗人，依然会在群山和大雾中高声歌唱",
-        "imageUrl": "res/images/08.jpg"
+        "imageUrl": "res/images/jpg/08.jpg",
+        "imageUrlWebP": "res/images/webp/08.webp"
     },
     {
         "id": 23,
         "sentences": "两厢情愿是人世间最美妙的事",
-        "imageUrl": "res/images/09.jpg"
+        "imageUrl": "res/images/jpg/09.jpg",
+        "imageUrlWebP": "res/images/webp/09.webp"
     },
     {
         "id": 24,
         "sentences": "很喜欢这种感觉，一个人坐着夜班火车在苏格兰的丘陵之间穿梭，车厢里没有人，陪着我的只有音乐，星斗和皑铠白雪。",
-        "imageUrl": "res/images/10.jpg"
+        "imageUrl": "res/images/jpg/10.jpg",
+        "imageUrlWebP": "res/images/webp/10.webp"
     },
     {
         "id": 25,
         "sentences": "风从天空成群结队归来，在泼洒的白日光里，摇摇晃晃地逃往松树林。从喉咙蹦出的字句，遮盖秘密的欢愉，白纸上未出现的字尚不了解。",
-        "imageUrl": "res/images/11.jpg"
+        "imageUrl": "res/images/jpg/11.jpg",
+        "imageUrlWebP": "res/images/webp/11.webp"
     },
     {
         "id": 26,
         "sentences": "见面的意义，是为了宣泄不见面时，挤压在心里浓浓的爱意，不见面的时候，除了好好生活，就是在期待与你的见面。",
-        "imageUrl": "res/images/12.jpg"
+        "imageUrl": "res/images/jpg/12.jpg",
+        "imageUrlWebP": "res/images/webp/12.webp"
     },
     {
         "id": 27,
         "sentences": "年轻的的教父打开了父辈留下的唱片，解放了的姜哥衔着麦秆，惬意地躺在金色的草垛上，夕阳下哼着小曲",
-        "imageUrl": "res/images/13.jpg"
+        "imageUrl": "res/images/jpg/13.jpg",
+        "imageUrlWebP": "res/images/webp/13.webp"
     },
     {
         "id": 28,
         "sentences": "时间仿佛有了形状，就像这缸里的冰变成水又变成冰​",
-        "imageUrl": "res/images/14.jpg"
+        "imageUrl": "res/images/jpg/14.jpg",
+        "imageUrlWebP": "res/images/webp/14.webp"
     },
     {
         "id": 29,
         "sentences": "这里的土地总是坚硬而冰冷\n当伏特加凛冽地割开我的喉咙\n亲爱的\n我想起了西伯利亚吹来的冷风和你的眼睛",
-        "imageUrl": "res/images/01.jpg"
+        "imageUrl": "res/images/jpg/01.jpg",
+        "imageUrlWebP": "res/images/webp/01.webp"
     },
     {
         "id": 30,
         "sentences": "我不是向你下跪，\n而是向人类的所有苦难下跪。\n-—陀思妥耶夫斯基《罪与罚》",
-        "imageUrl": "res/images/02.jpg"
+        "imageUrl": "res/images/jpg/02.jpg",
+        "imageUrlWebP": "res/images/webp/02.webp"
     },
     {
         "id": 31,
         "sentences": "谁在爱,\n谁就应该与他所爱的人分担命运。\n——布尔加科夫<大师和玛格丽特》",
-        "imageUrl": "res/images/03.jpg"
+        "imageUrl": "res/images/jpg/03.jpg",
+        "imageUrlWebP": "res/images/webp/03.webp"
     },
     {
         "id": 32,
         "sentences": "在你孤独，悲伤的日子,\n请你悄悄地念一念我的名字，\n并且说:\n有人在思念我，\n在这世间我活在一个人的心里。\n—《我的名字》",
-        "imageUrl": "res/images/04.jpg"
+        "imageUrl": "res/images/jpg/04.jpg",
+        "imageUrlWebP": "res/images/webp/04.webp"
     },
     {
         "id": 33,
         "sentences": "俄式浪漫：仿佛绝对黑暗的暴雪长夜里，一朵如火焰如血液般鲜红欲滴的玫瑰花被你死死地护在包裹着熊皮大衣的心中，去送给古堡顶层讴歌皎月的公主。",
-        "imageUrl": "res/images/05.jpg"
+        "imageUrl": "res/images/jpg/05.jpg",
+        "imageUrlWebP": "res/images/webp/05.webp"
     }
 ]

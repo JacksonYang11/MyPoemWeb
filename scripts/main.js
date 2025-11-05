@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const modalText = document.querySelector('.modal-text');
     const closeBtn = document.querySelector('.close-btn');
     const defaultImgUrl = 'res/images/01.jpg';
+    const placeHolderImg = 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1"%3E%3C/svg%3E';
     
     // 预加载指定数量的图片
     function preloadImages(imagesToLoad, count = 5) {
@@ -28,15 +29,45 @@ document.addEventListener('DOMContentLoaded', () => {
         const cardsData = await loadCardsData();
         if (cardsData.length === 0) return;
 
-        // 预加载前5张图片
-        preloadImages(cardsData);
+        // 动态预加载数量：移动设备预加载3张，桌面预加载5张
+        const isMobile = window.innerWidth < 768;
+        const preloadCount = isMobile ? 3 : 5;
+        preloadImages(cardsData, preloadCount);
 
         // 生成卡片并添加到容器
         cardsData.forEach((cardData) => {
             const card = createCard(cardData);
             masonryContainer.appendChild(card);
         });
-    
+        initLazyLoad()
+    }
+
+    //所有图片都设置懒加载,这里初始化懒加载观察器
+    function initLazyLoad(){
+        const options = {
+            root: null, // 相对于视口
+            rootMargin: '50px 0px', // 提前50px开始加载
+            threshold: 0.1  // 当10%的卡片可见时触发
+        };
+        //通过这个交叉观察器来观察网页的卡片元素，到了观察范围内才加载真正的图片。
+        observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if(entry.isIntersecting){
+                    const card = entry.target;
+                    const img = card.querySelector('.card-image');
+                    const dataSrc = img.getAttribute('data-src');
+                    if(dataSrc){
+                        img.src = dataSrc;
+                        //图片加载完后停止观察该卡片
+                        img.removeAttribute('data-src');
+                        observer.unobserve(card);
+                    }
+                }
+            })
+        }, options)
+
+        const cards = document.querySelectorAll('.card');
+        cards.forEach(card => observer.observe(card));
     }
 
     // 事件监听
@@ -67,11 +98,12 @@ document.addEventListener('DOMContentLoaded', () => {
         const cardElement = document.createElement('div');
         cardElement.className = 'card';
         
-        const imgUrl = cardItem.imageUrl || defaultImgUrl;
+        const imgUrl = cardItem.imageUrlWebP || cardItem.imageUrl || defaultImgUrl;
         
         const img = document.createElement('img');
         img.className = 'card-image';
-        img.src = imgUrl;
+        img.setAttribute('data-src', imgUrl);
+        img.src = placeHolderImg;
         img.alt = '句子配图';
         
         // 设置加载样式，确保加载时有过渡效果
@@ -81,13 +113,17 @@ document.addEventListener('DOMContentLoaded', () => {
         
         // 图片加载完成后显示
         img.onload = function() {
-            img.style.opacity = '1';
+            if(img.src != placeHolderImg){
+                img.style.opacity = '1';
+            }
         };
         
         // 加载失败时使用默认图片
         img.onerror = function() {
-            img.src = defaultImgUrl;
-            img.style.opacity = '1';
+            if(img.getAttribute('data-src')){
+                img.src = defaultImgUrl;
+                img.style.opacity = '1';
+            }
         };
 
         const text = document.createElement('p');
@@ -114,7 +150,7 @@ document.addEventListener('DOMContentLoaded', () => {
         document.body.style.overflow = 'hidden'; // 防止背景滚动
         
         // 确保图片加载完成后再显示
-        const imgUrl = cardItem.imageUrl || defaultImgUrl;
+        const imgUrl = cardItem.imageUrlWebP || cardItem.imageUrl || defaultImgUrl;
         const tempImg = new Image();
         tempImg.onload = function() {
             modalImage.src = imgUrl;
