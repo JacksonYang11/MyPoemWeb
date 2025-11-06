@@ -128,7 +128,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const text = document.createElement('p');
         text.className = 'card-text';
-        text.textContent = cardItem.sentences;
+        // 将换行符转换为HTML换行标签
+        text.innerHTML = cardItem.sentences.replace(/\n/g, '<br>');
+        // 根据textAlign字段设置对齐方式
+        if(cardItem.textAlign){
+            text.style.textAlign = cardItem.textAlign;
+        }
 
         cardElement.appendChild(img);
         cardElement.appendChild(text);
@@ -145,7 +150,12 @@ document.addEventListener('DOMContentLoaded', () => {
         // 清空之前的图片，显示加载中状态
         modalImage.style.opacity = '0';
         modalImage.src = '';
-        modalText.textContent = cardItem.sentences;
+        // 将换行符转换为HTML换行标签
+        modalText.innerHTML = cardItem.sentences.replace(/\n/g, '<br>');
+        // 根据textAlign字段设置对齐方式
+        if(cardItem.textAlign){
+            modalText.style.textAlign = cardItem.textAlign;
+        }
         modal.classList.add('active');
         document.body.style.overflow = 'hidden'; // 防止背景滚动
         
