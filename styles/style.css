@@ -139,6 +139,17 @@
   color: #333;
 }
 
+.close-btn {
+    cursor: pointer;        /* 鼠标悬停时显示手型 */
+    font-size: 20px;        /* 调整大小 */
+    font-weight: bold;       /* 加粗显示 */
+    color: #999;            /* 颜色 */
+    padding: 5px 10px;      /* 内边距 */
+}
+.close-btn:hover {
+    color: #333;            /* 鼠标悬停变色 */
+}
+
 body {
   background-color: #f9f5f0; /* 米白背景 */
   margin: 0;
